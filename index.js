@@ -36,7 +36,7 @@ function driversByName(drivers)
 
 function totalRevenue(drivers)
 {
-  const revenue = function (agg, el, i, arr)
+  const revenue = function (agg, el)
   {
     return agg + el.revenue
   }
